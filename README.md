@@ -17,12 +17,8 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 # Install Node.js
 nvm install 22.4.1
 ```
-2. Install dependencies
-```bash
-npm install body-parser express express-handlebars nodemon
-```
 
-3. Install MongoDB
+2. Install MongoDB
 
   Install according to your system following the official documentation:
   https://www.mongodb.com/docs/manual/installation/
@@ -35,6 +31,11 @@ git clone https://github.com/GuilhermeHenn/notes.git
 1. Initialize MongoDB
 ```bash
 systemctl start mongod
+```
+
+2. Install dependencies
+```bash
+npm install body-parser express express-handlebars nodemon
 ```
 
 2. Run the project
