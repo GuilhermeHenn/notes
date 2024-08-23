@@ -23,10 +23,11 @@ nvm install 22.4.1
   Install according to your system following the official documentation:
   https://www.mongodb.com/docs/manual/installation/
 
-5. Clone the project
+3. Clone the project
 ```bash
 git clone https://github.com/GuilhermeHenn/notes.git
 ```
+
 ## Run Notes
 1. Initialize MongoDB
 ```bash
@@ -38,7 +39,7 @@ systemctl start mongod
 npm install body-parser express express-handlebars nodemon
 ```
 
-2. Run the project
+3. Run the project
 ```bash
 npm run notes
 ```
