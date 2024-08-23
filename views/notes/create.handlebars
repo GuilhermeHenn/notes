@@ -1,0 +1,14 @@
+<a href="/">Return</a>
+<h2>Add a note</h2>
+
+<form action="/notes" method="POST">
+    <div class="mb-3">
+        <label for="title" class="form-label">Title:</label>
+        <input type="text" class="form-control" id="title" name="title" placeholder="What do you intend to do?" required="true">
+    </div>
+    <div class="mb-3">
+        <label for="description" class="form-label">Description:</label>
+        <textarea class="form-control" name="description" id="description" placeholder="Describe your note better..."></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Create note</button>
+</form>
